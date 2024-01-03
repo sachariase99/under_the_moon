@@ -1,0 +1,44 @@
+.booking {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px;
+  gap: 20px;
+  color: #ffffff;
+  font-family: "Gilda Display", serif;
+}
+.booking .left, .booking .right {
+  position: relative;
+}
+.booking .left .text, .booking .right .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.booking .left .text h2, .booking .right .text h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 10%;
+}
+.booking .left .text p, .booking .right .text p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.booking .left .text button, .booking .right .text button {
+  padding: 11px 31px;
+  background-color: #1F1F1F;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10%;
+}
+.booking img {
+  width: 100%;
+}/*# sourceMappingURL=booking.css.map */

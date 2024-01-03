@@ -1,0 +1,40 @@
+.aboutContainer {
+  height: 413px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.aboutContainer h2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Gilda Display", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.aboutContainer p {
+  max-width: 696px;
+  color: #000000;
+  font-family: "Gilda Display", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+.aboutContainer button {
+  padding: 12px 37.6px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000000;
+  font-family: "Gilda Display", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}/*# sourceMappingURL=about.css.map */

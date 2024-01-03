@@ -1,0 +1,79 @@
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  background-color: #262626;
+  font-family: "Gilda Display";
+  color: #ffffff;
+  height: 406px;
+}
+.footer h2 {
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.footer .signup {
+  margin-left: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .signup form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer .signup form input {
+  margin-top: 25px;
+  padding: 5px 7px;
+}
+.footer .signup form input[type=submit] {
+  margin-top: 35px;
+  background-color: #1F1F1F;
+  color: #ffffff;
+  width: 33%;
+  font-family: "Oranienbaum", serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid white;
+}
+.footer .links {
+  margin-left: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .links ul {
+  margin: 10px 0 10px 10px;
+}
+.footer .links ul li {
+  list-style: none;
+}
+.footer .links .socials .circles {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+.footer .links .socials .circles .circle {
+  width: 42px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.footer .contact {
+  margin-left: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .contact h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0 0 10px;
+}
+.footer .contact p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}/*# sourceMappingURL=footer.css.map */
